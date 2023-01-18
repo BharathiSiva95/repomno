@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 public class Sample3 {
 	@AfterSuite
 	private void aftersuite() {
+		System.out.println("updated by krish");
 		System.out.println("After suite");
 	}
 	@Test(groups= {"Sanity"})
