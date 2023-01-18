@@ -7,6 +7,7 @@ public class Sample2 {
 	private void tco2() {
 		System.out.println("Test case 02");
 		System.out.println("update ");
+		System.out.println("kbranch update checking")
 	}
 
 }
