@@ -7,6 +7,7 @@ public class Sample {
 	//Testng
 	@BeforeSuite
 	private void beforeSuite() {
+		System.out.println("New updatation available");
 		System.out.println("Before suite");
 
 	}
