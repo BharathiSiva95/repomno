@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LoginSuite">
+  <test thread-count="5" name="smokeTesting">
+  <groups>
+  <run>
+	 <!-- run the time any one which means include or exclude -->
+	 <!-- it print only the Sanity method -->
+<!-- <include name ="Sanity"></include> -->
+	  
+<!-- exclude Sanity means it print all the method except Sanity method -->	  
+<exclude name="Sanity"></exclude>  
+ 
+  
+  </run>	  
+	    
+  </groups>		  
+	  
+    <classes>
+      <class name="test.Sample"/>
+      <class name="test.Sample2"/>
+      <class name="test.Sample3"/>
+    </classes>
+  </test> <!-- smokeTesting -->
+</suite> <!-- loginSuite -->

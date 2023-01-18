@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-02T06:44:50 IST" name="LoginSuite" finished-at="2023-01-02T06:44:50 IST" duration-ms="134">
+    <groups>
+      <group name="Smoke">
+        <method signature="Sample2.tco2()[pri:0, instance:test.Sample2@7193666c]" name="tco2" class="test.Sample2"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-01-02T06:44:50 IST" name="smokeTesting" finished-at="2023-01-02T06:44:50 IST" duration-ms="134">
+      <class name="test.Sample3">
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:test.Sample3@20deea7f]" started-at="2023-01-02T06:44:50 IST" name="aftersuite" finished-at="2023-01-02T06:44:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- test.Sample3 -->
+      <class name="test.Sample2">
+        <test-method signature="tco2()[pri:0, instance:test.Sample2@7193666c]" started-at="2023-01-02T06:44:50 IST" name="tco2" finished-at="2023-01-02T06:44:50 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tco2 -->
+      </class> <!-- test.Sample2 -->
+      <class name="test.Sample">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:test.Sample@291ae]" started-at="2023-01-02T06:44:50 IST" name="beforeSuite" finished-at="2023-01-02T06:44:50 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+      </class> <!-- test.Sample -->
+    </test> <!-- smokeTesting -->
+  </suite> <!-- LoginSuite -->
+</testng-results>
